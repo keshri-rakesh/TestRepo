@@ -38,7 +38,7 @@ public class TestCalc {
 		assertEquals(calc.calculate("1,2\n3"), 6);
 	}
 	
-	//Test 6 throw Exception for negative input
+	//Test 6 throw Exception for negative input (recommit)
 	@Test(expectedExceptions = Exception.class)
 	public void test6throwsexceptionfornegativeinputs() {
 		calc.calculate("-1");
