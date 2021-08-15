@@ -5,7 +5,7 @@
     <classes>
       <class name="TestCalc">
         <methods>
-          <include name="test6throwsexceptionfornegativeinputs"/>
+          <include name="test7ignorenumbergreaterthan1000"/>
         </methods>
       </class> <!-- TestCalc -->
     </classes>
