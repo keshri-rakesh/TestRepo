@@ -30,6 +30,9 @@ public class Calculator {
 		
 		int sum=0;
 		for(String count : numbers) {
+			if(stringtoInt(count) >=1000) {
+				continue;
+			}
 			sum+= stringtoInt(count);
 		}
 		return sum;
