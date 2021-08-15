@@ -1,6 +1,10 @@
 
 public class Calculator {
 	public int calculate(String userinput) {
-		return 0;
+		if(userinput.isEmpty()) {
+			return 0;
+		}
+		return Integer.parseInt(userinput);
+		
 	}
 }
