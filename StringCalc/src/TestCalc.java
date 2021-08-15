@@ -7,6 +7,6 @@ public class TestCalc {
 	
 	public void test1emptystring() {
 		Calculator calc = new Calculator();
-		assertEquals("", -1);
+		assertEquals(calc.calculate(""), 0);
 	}
 }
