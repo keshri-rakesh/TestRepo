@@ -18,8 +18,8 @@ public class Calculator {
 	
 	private int add(String numbers[]) {
 		int sum=0;
-		for(int count=0; count<numbers.length; count++) {
-			sum+= stringtoInt(numbers[count]);
+		for(String count : numbers) {
+			sum+= stringtoInt(count);
 		}
 		return sum;
 	}
