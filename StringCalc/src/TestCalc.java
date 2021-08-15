@@ -1,6 +1,7 @@
 import static org.testng.Assert.assertEquals;
 
 import org.testng.annotations.Test;
+import org.testng.internal.ExpectedExceptionsHolder;
 
 @Test
 public class TestCalc {
@@ -35,5 +36,11 @@ public class TestCalc {
 	//Test 5 sum three numbers anyway delimited
 	public void test5threenumsum() {
 		assertEquals(calc.calculate("1,2\n3"), 6);
+	}
+	
+	//Test 6 throw Exception for negative input
+	@Test(expectedExceptions = Exception.class)
+	public void test6throwsexceptionfornegativeinputs() {
+		calc.calculate("-1");
 	}
 }

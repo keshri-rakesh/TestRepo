@@ -5,7 +5,7 @@
     <classes>
       <class name="TestCalc">
         <methods>
-          <include name="test5threenumsum"/>
+          <include name="test6throwsexceptionfornegativeinputs"/>
         </methods>
       </class> <!-- TestCalc -->
     </classes>
