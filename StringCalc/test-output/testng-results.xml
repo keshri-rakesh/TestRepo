@@ -2,24 +2,24 @@
 <testng-results ignored="0" total="4" passed="4" failed="0" skipped="0">
   <reporter-output>
   </reporter-output>
-  <suite started-at="2021-08-15T22:22:57 IST" name="Default suite" finished-at="2021-08-15T22:22:57 IST" duration-ms="46">
+  <suite started-at="2021-08-15T22:26:59 IST" name="Default suite" finished-at="2021-08-15T22:26:59 IST" duration-ms="43">
     <groups>
     </groups>
-    <test started-at="2021-08-15T22:22:57 IST" name="Default test" finished-at="2021-08-15T22:22:57 IST" duration-ms="46">
+    <test started-at="2021-08-15T22:26:59 IST" name="Default test" finished-at="2021-08-15T22:26:59 IST" duration-ms="43">
       <class name="TestCalc">
-        <test-method signature="init()[pri:0, instance:TestCalc@6b26e945]" started-at="2021-08-15T22:22:57 IST" name="init" finished-at="2021-08-15T22:22:57 IST" duration-ms="9" status="PASS">
+        <test-method signature="init()[pri:0, instance:TestCalc@6b26e945]" started-at="2021-08-15T22:26:59 IST" name="init" finished-at="2021-08-15T22:26:59 IST" duration-ms="6" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- init -->
-        <test-method signature="test1emptystring()[pri:0, instance:TestCalc@6b26e945]" started-at="2021-08-15T22:22:57 IST" name="test1emptystring" finished-at="2021-08-15T22:22:57 IST" duration-ms="2" status="PASS">
+        <test-method signature="test1emptystring()[pri:0, instance:TestCalc@6b26e945]" started-at="2021-08-15T22:26:59 IST" name="test1emptystring" finished-at="2021-08-15T22:26:59 IST" duration-ms="3" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- test1emptystring -->
-        <test-method signature="test2returnsinglevalue()[pri:0, instance:TestCalc@6b26e945]" started-at="2021-08-15T22:22:57 IST" name="test2returnsinglevalue" finished-at="2021-08-15T22:22:57 IST" duration-ms="0" status="PASS">
+        <test-method signature="test2returnsinglevalue()[pri:0, instance:TestCalc@6b26e945]" started-at="2021-08-15T22:26:59 IST" name="test2returnsinglevalue" finished-at="2021-08-15T22:26:59 IST" duration-ms="0" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- test2returnsinglevalue -->
-        <test-method signature="test3returnsumoftwoinput()[pri:0, instance:TestCalc@6b26e945]" started-at="2021-08-15T22:22:57 IST" name="test3returnsumoftwoinput" finished-at="2021-08-15T22:22:57 IST" duration-ms="1" status="PASS">
+        <test-method signature="test3returnsumoftwoinput()[pri:0, instance:TestCalc@6b26e945]" started-at="2021-08-15T22:26:59 IST" name="test3returnsumoftwoinput" finished-at="2021-08-15T22:26:59 IST" duration-ms="1" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- test3returnsumoftwoinput -->
