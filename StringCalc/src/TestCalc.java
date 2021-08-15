@@ -26,4 +26,9 @@ public class TestCalc {
 	public void test3returnsumoftwoinput() {
 		assertEquals(calc.calculate("1,2"), 3);
 	}
+	
+	//Test4 sum two values with newline delimited
+	public void test4returnssumwithnewlinedelimiter() {
+		assertEquals(calc.calculate("1\n2"), 3);
+	}
 }
