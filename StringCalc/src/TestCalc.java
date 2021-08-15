@@ -34,6 +34,6 @@ public class TestCalc {
 	
 	//Test 5 sum three numbers anyway delimited
 	public void test5threenumsum() {
-		assertEquals("1,2\n3", 6);
+		assertEquals(calc.calculate("1,2\n3"), 6);
 	}
 }

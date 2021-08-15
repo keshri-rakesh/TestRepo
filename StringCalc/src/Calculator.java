@@ -12,12 +12,16 @@ public class Calculator {
 			return stringtoInt(userinput);
 		}
 		else {
-			return add(numbers[0],numbers[1]);
+			return add(numbers);
 		}
 	}
 	
-	private int add(String input1, String input2) {
-		return stringtoInt(input1) + stringtoInt(input2);
+	private int add(String numbers[]) {
+		int sum=0;
+		for(int count=0; count<numbers.length; count++) {
+			sum+= stringtoInt(numbers[count]);
+		}
+		return sum;
 	}
 	
 	private boolean checkisEmpty(String userinput) {
