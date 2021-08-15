@@ -2,7 +2,7 @@ public class Calculator {
 	
 	private final String delimiters = ",|\n";
 	
-	public int calculate(String userinput) {
+	public int calculate(String userinput) throws Exception {
 		String[] numbers = userinput.split(delimiters);
 		
 		if(checkisEmpty(userinput)) {
@@ -16,7 +16,14 @@ public class Calculator {
 		}
 	}
 	
-	private int add(String numbers[]) {
+	private int add(String numbers[]) throws Exception {
+		
+		for(String count : numbers) {
+			if(stringtoInt(count)<0) {
+				throw new Exception("Negatives not allowed");
+			}
+		}
+		
 		int sum=0;
 		for(String count : numbers) {
 			sum+= stringtoInt(count);

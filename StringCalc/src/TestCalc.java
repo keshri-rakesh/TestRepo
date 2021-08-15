@@ -13,34 +13,34 @@ public class TestCalc {
 	}
 	
 	//Test1 return zero for empty string
-	public void test1emptystring() {
+	public void test1emptystring() throws Exception {
 		
 		assertEquals(calc.calculate(""), 0);
 	}
 	
 	//Test2 return value for single input
-	public void test2returnsinglevalue() {
+	public void test2returnsinglevalue() throws Exception {
 		assertEquals(calc.calculate("1"), 1);
 	}
 	
 	//Test3 sum two values with comma delimited
-	public void test3returnsumoftwoinput() {
+	public void test3returnsumoftwoinput() throws Exception {
 		assertEquals(calc.calculate("1,2"), 3);
 	}
 	
 	//Test4 sum two values with newline delimited
-	public void test4returnssumwithnewlinedelimiter() {
+	public void test4returnssumwithnewlinedelimiter() throws Exception {
 		assertEquals(calc.calculate("1\n2"), 3);
 	}
 	
 	//Test 5 sum three numbers anyway delimited
-	public void test5threenumsum() {
+	public void test5threenumsum() throws Exception {
 		assertEquals(calc.calculate("1,2\n3"), 6);
 	}
 	
 	//Test 6 throw Exception for negative input (recommit)
 	@Test(expectedExceptions = Exception.class)
-	public void test6throwsexceptionfornegativeinputs() {
+	public void test6throwsexceptionfornegativeinputs() throws Exception {
 		calc.calculate("-1");
 	}
 }
