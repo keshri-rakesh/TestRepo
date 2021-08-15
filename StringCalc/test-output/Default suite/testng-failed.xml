@@ -5,7 +5,7 @@
     <classes>
       <class name="TestCalc">
         <methods>
-          <include name="test1emptystring"/>
+          <include name="test2returnsinglevalue"/>
         </methods>
       </class> <!-- TestCalc -->
     </classes>
