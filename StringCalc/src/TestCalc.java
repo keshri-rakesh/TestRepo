@@ -31,4 +31,9 @@ public class TestCalc {
 	public void test4returnssumwithnewlinedelimiter() {
 		assertEquals(calc.calculate("1\n2"), 3);
 	}
+	
+	//Test 5 sum three numbers anyway delimited
+	public void test5threenumsum() {
+		assertEquals("1,2\n3", 6);
+	}
 }

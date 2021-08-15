@@ -5,7 +5,7 @@
     <classes>
       <class name="TestCalc">
         <methods>
-          <include name="test4returnssumwithnewlinedelimiter"/>
+          <include name="test5threenumsum"/>
         </methods>
       </class> <!-- TestCalc -->
     </classes>
