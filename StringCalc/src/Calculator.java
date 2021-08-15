@@ -1,6 +1,9 @@
 public class Calculator {
+	
+	private final String delimiters = ",|\n";
+	
 	public int calculate(String userinput) {
-		String[] numbers = userinput.split(",");
+		String[] numbers = userinput.split(delimiters);
 		
 		if(checkisEmpty(userinput)) {
 			return 0;
