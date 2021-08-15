@@ -51,7 +51,7 @@
               <ul>
                 <li>
                   <a href="#" panel-name="test-xml-Default_suite" class="navigator-link ">
-                    <span>C:\Users\keshr\AppData\Local\Temp\testng-eclipse--1957181171\testng-customsuite.xml</span>
+                    <span>C:\Users\keshr\AppData\Local\Temp\testng-eclipse--1950598280\testng-customsuite.xml</span>
                   </a> <!-- navigator-link  -->
                 </li>
                 <li>
@@ -93,7 +93,7 @@
               <div class="suite-section-content">
                 <ul>
                   <li>
-                    <span class="method-stats">2 methods,   2 passed</span>
+                    <span class="method-stats">3 methods,   3 passed</span>
                   </li>
                   <li>
                     <span class="method-list-title passed">Passed methods</span>
@@ -102,6 +102,11 @@
                       <a href="#" panel-name="suite-Default_suite" class="show-methods passed suite-Default_suite"> (show)</a> <!-- show-methods passed suite-Default_suite -->
                     </span>
                     <div class="method-list-content passed suite-Default_suite">
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Default_suite" title="TestCalc" class="method navigator-link" hash-for-method="init">init</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
                       <span>
                         <img src="passed.png" width="3%"/>
                         <a href="#" panel-name="suite-Default_suite" title="TestCalc" class="method navigator-link" hash-for-method="test1emptystring">test1emptystring</a> <!-- method navigator-link -->
@@ -132,6 +137,13 @@
             <div class="main-panel-content rounded-window-bottom">
               <div class="method">
                 <div class="method-content">
+                  <a name="init">
+                  </a> <!-- init -->
+                  <span class="method-name">init</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
                   <a name="test1emptystring">
                   </a> <!-- test1emptystring -->
                   <span class="method-name">test1emptystring</span>
@@ -149,7 +161,7 @@
         </div> <!-- panel Default_suite -->
         <div panel-name="test-xml-Default_suite" class="panel">
           <div class="main-panel-header rounded-window-top">
-            <span class="header-content">C:\Users\keshr\AppData\Local\Temp\testng-eclipse--1957181171\testng-customsuite.xml</span>
+            <span class="header-content">C:\Users\keshr\AppData\Local\Temp\testng-eclipse--1950598280\testng-customsuite.xml</span>
           </div> <!-- main-panel-header rounded-window-top -->
           <div class="main-panel-content rounded-window-bottom">
             <pre>
@@ -198,20 +210,24 @@ data.addColumn('number', 'Number');
 data.addColumn('string', 'Method');
 data.addColumn('string', 'Class');
 data.addColumn('number', 'Time (ms)');
-data.addRows(2);
+data.addRows(3);
 data.setCell(0, 0, 0)
-data.setCell(0, 1, 'test1emptystring')
+data.setCell(0, 1, 'init')
 data.setCell(0, 2, 'TestCalc')
-data.setCell(0, 3, 10);
+data.setCell(0, 3, 8);
 data.setCell(1, 0, 1)
-data.setCell(1, 1, 'test2returnsinglevalue')
+data.setCell(1, 1, 'test1emptystring')
 data.setCell(1, 2, 'TestCalc')
-data.setCell(1, 3, 1);
+data.setCell(1, 3, 3);
+data.setCell(2, 0, 2)
+data.setCell(2, 1, 'test2returnsinglevalue')
+data.setCell(2, 2, 'TestCalc')
+data.setCell(2, 3, 1);
 window.suiteTableData['Default_suite']= { tableData: data, tableDiv: 'times-div-Default_suite'}
 return data;
 }
               </script>
-              <span class="suite-total-time">Total running time: 11 ms</span>
+              <span class="suite-total-time">Total running time: 12 ms</span>
               <div id="times-div-Default_suite">
               </div> <!-- times-div-Default_suite -->
             </div> <!-- times-div -->
@@ -239,12 +255,16 @@ return data;
             <div class="chronological-class">
               <div class="chronological-class-name">TestCalc</div> <!-- chronological-class-name -->
               <div class="test-method">
-                <span class="method-name">test1emptystring</span>
+                <span class="method-name">init</span>
                 <span class="method-start">0 ms</span>
               </div> <!-- test-method -->
               <div class="test-method">
-                <span class="method-name">test2returnsinglevalue</span>
+                <span class="method-name">test1emptystring</span>
                 <span class="method-start">12 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">test2returnsinglevalue</span>
+                <span class="method-start">16 ms</span>
               </div> <!-- test-method -->
           </div> <!-- main-panel-content rounded-window-bottom -->
         </div> <!-- panel -->
