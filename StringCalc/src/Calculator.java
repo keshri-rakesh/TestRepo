@@ -16,13 +16,17 @@ public class Calculator {
 		}
 	}
 	
-	private int add(String numbers[]) throws Exception {
-		
+	private void checkfornegativeinputs(String numbers[]) throws Exception { //to check negative inputs
 		for(String count : numbers) {
 			if(stringtoInt(count)<0) {
 				throw new Exception("Negatives not allowed");
 			}
 		}
+	}
+	
+	private int add(String numbers[]) throws Exception { //add method to handle multiple inputs
+		
+		checkfornegativeinputs(numbers);
 		
 		int sum=0;
 		for(String count : numbers) {

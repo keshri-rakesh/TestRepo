@@ -2,43 +2,44 @@
 <testng-results ignored="0" total="7" passed="7" failed="0" skipped="0">
   <reporter-output>
   </reporter-output>
-  <suite started-at="2021-08-15T23:18:22 IST" name="Default suite" finished-at="2021-08-15T23:18:22 IST" duration-ms="53">
+  <suite started-at="2021-08-15T23:21:08 IST" name="Default suite" finished-at="2021-08-15T23:21:08 IST" duration-ms="53">
     <groups>
     </groups>
-    <test started-at="2021-08-15T23:18:22 IST" name="Default test" finished-at="2021-08-15T23:18:22 IST" duration-ms="53">
+    <test started-at="2021-08-15T23:21:08 IST" name="Default test" finished-at="2021-08-15T23:21:08 IST" duration-ms="53">
       <class name="TestCalc">
-        <test-method signature="init()[pri:0, instance:TestCalc@6dbb137d]" started-at="2021-08-15T23:18:22 IST" name="init" finished-at="2021-08-15T23:18:22 IST" duration-ms="6" status="PASS">
+        <test-method signature="init()[pri:0, instance:TestCalc@6dbb137d]" started-at="2021-08-15T23:21:08 IST" name="init" finished-at="2021-08-15T23:21:08 IST" duration-ms="6" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- init -->
-        <test-method signature="test1emptystring()[pri:0, instance:TestCalc@6dbb137d]" started-at="2021-08-15T23:18:22 IST" name="test1emptystring" finished-at="2021-08-15T23:18:22 IST" duration-ms="2" status="PASS">
+        <test-method signature="test1emptystring()[pri:0, instance:TestCalc@6dbb137d]" started-at="2021-08-15T23:21:08 IST" name="test1emptystring" finished-at="2021-08-15T23:21:08 IST" duration-ms="3" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- test1emptystring -->
-        <test-method signature="test2returnsinglevalue()[pri:0, instance:TestCalc@6dbb137d]" started-at="2021-08-15T23:18:22 IST" name="test2returnsinglevalue" finished-at="2021-08-15T23:18:22 IST" duration-ms="1" status="PASS">
+        <test-method signature="test2returnsinglevalue()[pri:0, instance:TestCalc@6dbb137d]" started-at="2021-08-15T23:21:08 IST" name="test2returnsinglevalue" finished-at="2021-08-15T23:21:08 IST" duration-ms="1" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- test2returnsinglevalue -->
-        <test-method signature="test3returnsumoftwoinput()[pri:0, instance:TestCalc@6dbb137d]" started-at="2021-08-15T23:18:22 IST" name="test3returnsumoftwoinput" finished-at="2021-08-15T23:18:22 IST" duration-ms="1" status="PASS">
+        <test-method signature="test3returnsumoftwoinput()[pri:0, instance:TestCalc@6dbb137d]" started-at="2021-08-15T23:21:08 IST" name="test3returnsumoftwoinput" finished-at="2021-08-15T23:21:08 IST" duration-ms="2" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- test3returnsumoftwoinput -->
-        <test-method signature="test4returnssumwithnewlinedelimiter()[pri:0, instance:TestCalc@6dbb137d]" started-at="2021-08-15T23:18:22 IST" name="test4returnssumwithnewlinedelimiter" finished-at="2021-08-15T23:18:22 IST" duration-ms="1" status="PASS">
+        <test-method signature="test4returnssumwithnewlinedelimiter()[pri:0, instance:TestCalc@6dbb137d]" started-at="2021-08-15T23:21:08 IST" name="test4returnssumwithnewlinedelimiter" finished-at="2021-08-15T23:21:08 IST" duration-ms="1" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- test4returnssumwithnewlinedelimiter -->
-        <test-method signature="test5threenumsum()[pri:0, instance:TestCalc@6dbb137d]" started-at="2021-08-15T23:18:22 IST" name="test5threenumsum" finished-at="2021-08-15T23:18:22 IST" duration-ms="1" status="PASS">
+        <test-method signature="test5threenumsum()[pri:0, instance:TestCalc@6dbb137d]" started-at="2021-08-15T23:21:08 IST" name="test5threenumsum" finished-at="2021-08-15T23:21:08 IST" duration-ms="1" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- test5threenumsum -->
-        <test-method signature="test6throwsexceptionfornegativeinputs()[pri:0, instance:TestCalc@6dbb137d]" started-at="2021-08-15T23:18:22 IST" name="test6throwsexceptionfornegativeinputs" finished-at="2021-08-15T23:18:22 IST" duration-ms="1" status="PASS">
+        <test-method signature="test6throwsexceptionfornegativeinputs()[pri:0, instance:TestCalc@6dbb137d]" started-at="2021-08-15T23:21:08 IST" name="test6throwsexceptionfornegativeinputs" finished-at="2021-08-15T23:21:08 IST" duration-ms="0" status="PASS">
           <exception class="java.lang.Exception">
             <message>
               <![CDATA[Negatives not allowed]]>
             </message>
             <full-stacktrace>
               <![CDATA[java.lang.Exception: Negatives not allowed
-at Calculator.add(Calculator.java:23)
+at Calculator.checkfornegativeinputs(Calculator.java:22)
+at Calculator.add(Calculator.java:29)
 at Calculator.calculate(Calculator.java:15)
 at TestCalc.test6throwsexceptionfornegativeinputs(TestCalc.java:44)
 at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)

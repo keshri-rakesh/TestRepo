@@ -57,7 +57,7 @@ function toggleAllBoxes() {
 <tr>
 <td>Tests passed/Failed/Skipped:</td><td>7/0/0</td>
 </tr><tr>
-<td>Started on:</td><td>Sun Aug 15 23:18:22 IST 2021</td>
+<td>Started on:</td><td>Sun Aug 15 23:21:08 IST 2021</td>
 </tr>
 <tr><td>Total time:</td><td>0 seconds (53 ms)</td>
 </tr><tr>
@@ -77,7 +77,8 @@ function toggleAllBoxes() {
 <tr>
 <td title='TestCalc.test6throwsexceptionfornegativeinputs()'><b>test6throwsexceptionfornegativeinputs</b><br>Test class: TestCalc</td>
 <td><div><pre>java.lang.Exception: Negatives not allowed
-	at Calculator.add(Calculator.java:23)
+	at Calculator.checkfornegativeinputs(Calculator.java:22)
+	at Calculator.add(Calculator.java:29)
 	at Calculator.calculate(Calculator.java:15)
 	at TestCalc.test6throwsexceptionfornegativeinputs(TestCalc.java:44)
 	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
@@ -110,7 +111,8 @@ function toggleAllBoxes() {
 	at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)
 </pre></div><a href='#' onClick='toggleBox("stack-trace1764696127", this, "Click to show all stack frames", "Click to hide stack frames")'>Click to show all stack frames</a>
 <div class='stack-trace' id='stack-trace1764696127'><pre>java.lang.Exception: Negatives not allowed
-	at Calculator.add(Calculator.java:23)
+	at Calculator.checkfornegativeinputs(Calculator.java:22)
+	at Calculator.add(Calculator.java:29)
 	at Calculator.calculate(Calculator.java:15)
 	at TestCalc.test6throwsexceptionfornegativeinputs(TestCalc.java:44)
 	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
