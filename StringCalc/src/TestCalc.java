@@ -21,4 +21,9 @@ public class TestCalc {
 	public void test2returnsinglevalue() {
 		assertEquals(calc.calculate("1"), 1);
 	}
+	
+	//Test3 sum two values with comma delimited
+	public void test3returnsumoftwoinput() {
+		assertEquals(calc.calculate("1,2"), 3);
+	}
 }
