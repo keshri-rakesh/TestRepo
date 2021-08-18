@@ -51,7 +51,7 @@
               <ul>
                 <li>
                   <a href="#" panel-name="test-xml-Default_suite" class="navigator-link ">
-                    <span>C:\Users\keshr\AppData\Local\Temp\testng-eclipse--908418087\testng-customsuite.xml</span>
+                    <span>C:\Users\keshr\AppData\Local\Temp\testng-eclipse--1991237135\testng-customsuite.xml</span>
                   </a> <!-- navigator-link  -->
                 </li>
                 <li>
@@ -93,7 +93,7 @@
               <div class="suite-section-content">
                 <ul>
                   <li>
-                    <span class="method-stats">8 methods,   8 passed</span>
+                    <span class="method-stats">9 methods,   9 passed</span>
                   </li>
                   <li>
                     <span class="method-list-title passed">Passed methods</span>
@@ -102,11 +102,6 @@
                       <a href="#" panel-name="suite-Default_suite" class="show-methods passed suite-Default_suite"> (show)</a> <!-- show-methods passed suite-Default_suite -->
                     </span>
                     <div class="method-list-content passed suite-Default_suite">
-                      <span>
-                        <img src="passed.png" width="3%"/>
-                        <a href="#" panel-name="suite-Default_suite" title="TestCalc" class="method navigator-link" hash-for-method="init">init</a> <!-- method navigator-link -->
-                      </span>
-                      <br/>
                       <span>
                         <img src="passed.png" width="3%"/>
                         <a href="#" panel-name="suite-Default_suite" title="TestCalc" class="method navigator-link" hash-for-method="test1emptystring">test1emptystring</a> <!-- method navigator-link -->
@@ -142,6 +137,16 @@
                         <a href="#" panel-name="suite-Default_suite" title="TestCalc" class="method navigator-link" hash-for-method="test7ignorenumbergreaterthan1000">test7ignorenumbergreaterthan1000</a> <!-- method navigator-link -->
                       </span>
                       <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Default_suite" title="TestCalc" class="method navigator-link" hash-for-method="test8formultiplenegatives">test8formultiplenegatives</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Default_suite" title="TestCalc" class="method navigator-link" hash-for-method="test9addmethodinvokedcount">test9addmethodinvokedcount</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
                     </div> <!-- method-list-content passed suite-Default_suite -->
                   </li>
                 </ul>
@@ -160,13 +165,6 @@
               <span class="class-name">TestCalc</span>
             </div> <!-- main-panel-header rounded-window-top -->
             <div class="main-panel-content rounded-window-bottom">
-              <div class="method">
-                <div class="method-content">
-                  <a name="init">
-                  </a> <!-- init -->
-                  <span class="method-name">init</span>
-                </div> <!-- method-content -->
-              </div> <!-- method -->
               <div class="method">
                 <div class="method-content">
                   <a name="test1emptystring">
@@ -216,12 +214,26 @@
                   <span class="method-name">test7ignorenumbergreaterthan1000</span>
                 </div> <!-- method-content -->
               </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="test8formultiplenegatives">
+                  </a> <!-- test8formultiplenegatives -->
+                  <span class="method-name">test8formultiplenegatives</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="test9addmethodinvokedcount">
+                  </a> <!-- test9addmethodinvokedcount -->
+                  <span class="method-name">test9addmethodinvokedcount</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
             </div> <!-- main-panel-content rounded-window-bottom -->
           </div> <!-- suite-Default_suite-class-passed -->
         </div> <!-- panel Default_suite -->
         <div panel-name="test-xml-Default_suite" class="panel">
           <div class="main-panel-header rounded-window-top">
-            <span class="header-content">C:\Users\keshr\AppData\Local\Temp\testng-eclipse--908418087\testng-customsuite.xml</span>
+            <span class="header-content">C:\Users\keshr\AppData\Local\Temp\testng-eclipse--1991237135\testng-customsuite.xml</span>
           </div> <!-- main-panel-header rounded-window-top -->
           <div class="main-panel-content rounded-window-bottom">
             <pre>
@@ -270,44 +282,48 @@ data.addColumn('number', 'Number');
 data.addColumn('string', 'Method');
 data.addColumn('string', 'Class');
 data.addColumn('number', 'Time (ms)');
-data.addRows(8);
+data.addRows(9);
 data.setCell(0, 0, 0)
-data.setCell(0, 1, 'init')
+data.setCell(0, 1, 'test1emptystring')
 data.setCell(0, 2, 'TestCalc')
-data.setCell(0, 3, 8);
+data.setCell(0, 3, 6);
 data.setCell(1, 0, 1)
-data.setCell(1, 1, 'test1emptystring')
+data.setCell(1, 1, 'test6throwsexceptionfornegativeinputs')
 data.setCell(1, 2, 'TestCalc')
-data.setCell(1, 3, 3);
+data.setCell(1, 3, 2);
 data.setCell(2, 0, 2)
 data.setCell(2, 1, 'test4returnssumwithnewlinedelimiter')
 data.setCell(2, 2, 'TestCalc')
 data.setCell(2, 3, 2);
 data.setCell(3, 0, 3)
-data.setCell(3, 1, 'test5threenumsum')
+data.setCell(3, 1, 'test7ignorenumbergreaterthan1000')
 data.setCell(3, 2, 'TestCalc')
 data.setCell(3, 3, 1);
 data.setCell(4, 0, 4)
-data.setCell(4, 1, 'test6throwsexceptionfornegativeinputs')
+data.setCell(4, 1, 'test2returnsinglevalue')
 data.setCell(4, 2, 'TestCalc')
 data.setCell(4, 3, 1);
 data.setCell(5, 0, 5)
-data.setCell(5, 1, 'test7ignorenumbergreaterthan1000')
+data.setCell(5, 1, 'test3returnsumoftwoinput')
 data.setCell(5, 2, 'TestCalc')
 data.setCell(5, 3, 1);
 data.setCell(6, 0, 6)
-data.setCell(6, 1, 'test2returnsinglevalue')
+data.setCell(6, 1, 'test8formultiplenegatives')
 data.setCell(6, 2, 'TestCalc')
 data.setCell(6, 3, 1);
 data.setCell(7, 0, 7)
-data.setCell(7, 1, 'test3returnsumoftwoinput')
+data.setCell(7, 1, 'test5threenumsum')
 data.setCell(7, 2, 'TestCalc')
 data.setCell(7, 3, 1);
+data.setCell(8, 0, 8)
+data.setCell(8, 1, 'test9addmethodinvokedcount')
+data.setCell(8, 2, 'TestCalc')
+data.setCell(8, 3, 1);
 window.suiteTableData['Default_suite']= { tableData: data, tableDiv: 'times-div-Default_suite'}
 return data;
 }
               </script>
-              <span class="suite-total-time">Total running time: 18 ms</span>
+              <span class="suite-total-time">Total running time: 16 ms</span>
               <div id="times-div-Default_suite">
               </div> <!-- times-div-Default_suite -->
             </div> <!-- times-div -->
@@ -334,37 +350,45 @@ return data;
           <div class="main-panel-content rounded-window-bottom">
             <div class="chronological-class">
               <div class="chronological-class-name">TestCalc</div> <!-- chronological-class-name -->
-              <div class="test-method">
+              <div class="configuration-test before">
                 <span class="method-name">init</span>
                 <span class="method-start">0 ms</span>
-              </div> <!-- test-method -->
+              </div> <!-- configuration-test before -->
               <div class="test-method">
                 <span class="method-name">test1emptystring</span>
-                <span class="method-start">10 ms</span>
+                <span class="method-start">24 ms</span>
               </div> <!-- test-method -->
               <div class="test-method">
                 <span class="method-name">test2returnsinglevalue</span>
-                <span class="method-start">14 ms</span>
+                <span class="method-start">32 ms</span>
               </div> <!-- test-method -->
               <div class="test-method">
                 <span class="method-name">test3returnsumoftwoinput</span>
-                <span class="method-start">16 ms</span>
+                <span class="method-start">35 ms</span>
               </div> <!-- test-method -->
               <div class="test-method">
                 <span class="method-name">test4returnssumwithnewlinedelimiter</span>
-                <span class="method-start">18 ms</span>
+                <span class="method-start">37 ms</span>
               </div> <!-- test-method -->
               <div class="test-method">
                 <span class="method-name">test5threenumsum</span>
-                <span class="method-start">20 ms</span>
+                <span class="method-start">40 ms</span>
               </div> <!-- test-method -->
               <div class="test-method">
                 <span class="method-name">test6throwsexceptionfornegativeinputs</span>
-                <span class="method-start">22 ms</span>
+                <span class="method-start">42 ms</span>
               </div> <!-- test-method -->
               <div class="test-method">
                 <span class="method-name">test7ignorenumbergreaterthan1000</span>
-                <span class="method-start">25 ms</span>
+                <span class="method-start">47 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">test8formultiplenegatives</span>
+                <span class="method-start">49 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">test9addmethodinvokedcount</span>
+                <span class="method-start">51 ms</span>
               </div> <!-- test-method -->
           </div> <!-- main-panel-content rounded-window-bottom -->
         </div> <!-- panel -->

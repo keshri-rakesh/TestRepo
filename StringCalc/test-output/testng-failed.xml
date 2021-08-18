@@ -5,7 +5,8 @@
     <classes>
       <class name="TestCalc">
         <methods>
-          <include name="test3returnsumoftwoinput"/>
+          <include name="init"/>
+          <include name="test9addmethodinvokedcount"/>
         </methods>
       </class> <!-- TestCalc -->
     </classes>
